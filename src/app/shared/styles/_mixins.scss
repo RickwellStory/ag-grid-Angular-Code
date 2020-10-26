@@ -1,0 +1,13 @@
+@import "src/app/shared/styles/keyframes";
+
+@mixin flex($direction, $align, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+@mixin background($url){
+  background: url($url) no-repeat;
+  background-size: cover;
+  animation: background-zoom 20s ease-in-out infinite;
+}

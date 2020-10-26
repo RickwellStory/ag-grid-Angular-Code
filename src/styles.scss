@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+
+// AG-Grid import
+@import "../node_modules/ag-grid-community/dist/styles/ag-grid.css";
+@import "../node_modules/ag-grid-community/dist/styles/ag-theme-alpine.css";
+@import "../node_modules/ag-grid-community/dist/styles/ag-theme-alpine-dark.css";
+
+//Base import
+@import "../src/app/shared/styles/base";
+@import "../src/app/shared/styles/variables";
+@import "../src/app/shared/styles/mixins";

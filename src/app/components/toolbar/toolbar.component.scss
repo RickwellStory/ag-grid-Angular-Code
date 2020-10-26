@@ -1,0 +1,12 @@
+@import "src/app/shared/styles/variables";
+
+.ag-header-component{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 0 30px;
+  background: $site-color-warn;
+}

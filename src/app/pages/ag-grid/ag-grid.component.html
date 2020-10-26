@@ -1,0 +1,14 @@
+<section class="ag-grid">
+  <div matRipple routerLink="/welcome" class="ag-grid__back-btn">
+    <h2>Back</h2>
+  </div>
+  <ag-grid-angular
+    class="ag-grid__content ag-theme-alpine-dark"
+    [rowData]="rowData"
+    (gridReady)="onGridReady($event)"
+    [gridOptions]="gridOptions"
+    [allowContextMenuWithControlKey]="true"
+    [getContextMenuItems]="getContextMenuItems"
+
+  ></ag-grid-angular>
+</section>

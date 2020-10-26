@@ -1,0 +1,33 @@
+@import "shared/styles/variables";
+
+
+header {
+  position: fixed;
+  top: 5%;
+  right: -100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  &:hover {
+    right: 0;
+  }
+  & h2{
+    margin: 0;
+    padding: 8px 16px;
+    color: $title-text-color;
+    border-right: 4px solid $title-text-color;
+    border-radius: 8px 0 0 8px;
+    background: $site-color-warn;
+  }
+  & h3{
+    width: 100px;
+    margin: 0;
+    padding: 10px 16px;
+    text-align: center;
+    color: $site-color-warn;
+    background: $title-text-color;
+  }
+
+}
